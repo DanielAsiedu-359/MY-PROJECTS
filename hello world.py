@@ -1,0 +1,23 @@
+name=input('What is your name? ')
+print('Hi '+name)
+status=input(f'How are you doing {name}? ')
+print('We thank God')
+colour=input('Okay '+name+' what is your favourite colour? ')
+print(f'Oh nice choice {name},{colour} is a beautiful colour')
+birth_year=input('What year were you born? ')
+age=2025-int(birth_year)
+suggestion=input(f'That means you are {str(age)} years {name} am I right? ')
+print('Good')
+occupation=input(f"{name} what do you do for a living, if you don't mind me asking? ")
+print(f"So {name} you are a {occupation[7:]}, nice!")
+work=occupation[7:]
+work_place=input(f"So as a {work} where do you fulfill your duties? ")
+input(f"what {work_place[2:]} do you work at? ")
+input("Thank you for your valuable interaction ")
+print("(:])")
+tries=input("CREATOR:So fellow programmer many tries did it take you to complete the interaction without making a mistake? ")
+value_tries=int(tries)
+if(value_tries>10):
+    print("Did you seriously try again that many times lol")
+elif(value_tries<10):
+    print('Seems you got alot of good luck')
